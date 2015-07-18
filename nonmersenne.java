@@ -64,7 +64,9 @@ public class nonmersenne{
 			int a = 28433;
 			res=lngprod(lngpow(2, 7830457L), a);
 			for(int i=res.length-1; i>=0; i--)
-			System.out.print(res[i]);
+			{
+				System.out.print(res[i]);
+			}
 		    System.out.println();
 			//test();
 		}
