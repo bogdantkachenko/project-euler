@@ -43,7 +43,7 @@ while ratio>0.1:
     if isprime(size**2-3*size+3):
         pd_cnt+=1
     ratio=float(pd_cnt)/(2*size-1)
-    print(size, ' , ', pd_cnt, ' , ', ratio)
+    print size, ', ', pd_cnt, ', ', ratio
 
 #print size, ' , ', pd_cnt, ' , ', ratio
 #print(diag_p)
